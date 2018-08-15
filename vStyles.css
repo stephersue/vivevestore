@@ -27,7 +27,7 @@
   transition: .5s ease;
   opacity: 0;
   filter: alpha(opacity=0); /* For IE8 and earlier */
-  position: relative;
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
