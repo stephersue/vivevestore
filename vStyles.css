@@ -23,7 +23,7 @@
 }
 
 .v_container{
-  width: 30%;
+  width: 30% !important;
   margin: 5px;
 }
 
