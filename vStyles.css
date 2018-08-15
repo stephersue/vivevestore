@@ -1,0 +1,28 @@
+.v_onHover {
+  display: none;
+  width: 100%;
+  height: 100%;
+}
+
+.v_onHover:hover {
+  display:block;
+  background-color: #97999b;
+  opacity: 0.5;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+.v_onHover p:hover{
+  opacity: 1;
+  filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+.v_rButton{
+  width: 30%;
+  margin: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  .v_rButton{
+    width: 100%;
+  }
+}
