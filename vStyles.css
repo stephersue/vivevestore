@@ -3,12 +3,9 @@
   align-items: center;
 }
 .v_container{
-  width: 30% !important;
-  margin: 5px;
-}
-
-.v_container div{
+  position: relative;
   display: inline-block;
+  width: 30% !important;
 }
 
 .v_container:hover .v_image {
@@ -39,6 +36,10 @@
 }
 
 .v_container:hover .v_middle {
+  opacity: 1;
+  filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+.v_container:hover .v_text {
   opacity: 1;
   filter: alpha(opacity=100); /* For IE8 and earlier */
 }
