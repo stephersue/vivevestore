@@ -1,5 +1,6 @@
 #wrapper {
   max-width: 776px;
+  align-items: center;
 }
 .v_onHover {
   display: none;
@@ -21,13 +22,27 @@
   font-family: "Proxima Nova", sans-serif;
 }
 
-.v_rButton{
+.v_container{
   width: 30%;
   margin: 5px;
 }
 
+.v_container:hover .v_image {
+  opacity: 0.4;
+  filter: alpha(opacity=40); /* For IE8 and earlier */
+}
+
+.v_image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
 @media only screen and (max-width: 380px) {
-  .v_rButton{
+  .container{
     width: 100%;
   }
 }
