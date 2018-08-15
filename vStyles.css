@@ -44,6 +44,11 @@
   padding: 16px 32px;
   text-shadow: 3px 2px black;
   font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
 }
 /* .v_container:hover .v_text {
   opacity: 1;
