@@ -6,14 +6,16 @@
 
 .v_onHover:hover {
   display:block;
-  background-color: #97999b;
-  opacity: 0.5;
-  filter: alpha(opacity=50); /* For IE8 and earlier */
+  background-color: #000000;
+  opacity: 0.45;
+  filter: alpha(opacity=45); /* For IE8 and earlier */
 }
 
 .v_onHover p:hover{
+  display:block;
   opacity: 1;
   filter: alpha(opacity=100); /* For IE8 and earlier */
+  font-family: "Proxima Nova", sans-serif;
 }
 
 .v_rButton{
