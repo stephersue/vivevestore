@@ -1,5 +1,5 @@
 #wrapper {
-  max-width: 776px;
+  max-width: 778px;
   align-items: center;
 }
 .v_onHover {
@@ -25,6 +25,7 @@
 .v_container{
   width: 30% !important;
   margin: 5px;
+  display: inline-block;
 }
 
 .v_container:hover .v_image {
