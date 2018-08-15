@@ -1,3 +1,6 @@
+#wrapper {
+  max-width: 776px;
+}
 .v_onHover {
   display: none;
   width: 100%;
@@ -23,7 +26,7 @@
   margin: 5px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 380px) {
   .v_rButton{
     width: 100%;
   }
